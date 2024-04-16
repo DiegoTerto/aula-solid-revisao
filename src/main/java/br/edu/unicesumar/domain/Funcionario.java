@@ -2,7 +2,7 @@ package br.edu.unicesumar.domain;
 
 import java.math.BigDecimal;
 
-public abstract class Funcionario implements RemuneracaoStrategy{
+public class Funcionario {
     private String nome;
     private BigDecimal salario;
     private BigDecimal bonficacao;
